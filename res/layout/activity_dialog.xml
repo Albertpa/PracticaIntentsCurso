@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:id="@+id/textNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:text="@string/textNombre"
+        android:textColor="@android:color/white" 
+        android:layout_gravity="center_horizontal"     	
+        android:textSize="@dimen/tamaTexto" />          
+    <EditText
+        android:id="@+id/textViewNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="@dimen/marg"
+		android:background="@android:color/white"
+		android:paddingLeft="@dimen/pad"
+		android:paddingRight="@dimen/pad"
+		android:inputType="text"			
+		android:textSize="@dimen/tamaTexto"  />
+    
+    
+    
+    <TextView
+        android:id="@+id/textApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:text="@string/textApellido"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"     	      	
+        android:textSize="@dimen/tamaTexto" />      
+     <EditText
+        android:id="@+id/textViewApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="@dimen/marg"
+		android:background="@android:color/white"		 
+		android:paddingLeft="@dimen/pad"
+		android:paddingRight="@dimen/pad"	
+		android:inputType="text"		
+		android:textSize="@dimen/tamaTexto" />
+     
+     
+     <TextView
+        android:id="@+id/textEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:text="@string/textEdad"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"     	      	
+        android:textSize="@dimen/tamaTexto" /> 
+     <EditText
+        android:id="@+id/textViewEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="@dimen/marg"
+		android:background="@android:color/white"		   
+		android:paddingLeft="@dimen/pad"
+		android:paddingRight="@dimen/pad"
+		android:inputType="number"		
+		android:textSize="@dimen/tamaTexto"		
+		 />
+     
+     
+      <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"	    
+	    android:orientation="horizontal"	  
+	    android:gravity="center_horizontal">
+	    
+     		<Button
+	        android:id="@+id/OK"
+	        android:layout_width="@dimen/dimenBoton"
+	        android:layout_height="wrap_content"
+	        android:onClick="onButtonClick"
+	        android:text="@string/textOk" />
+      
+      		<Button
+	        android:id="@+id/Cancel"
+	        android:layout_width="@dimen/dimenBoton"
+	        android:layout_height="wrap_content"
+	        android:onClick="onButtonClick"	        
+	        android:text="@string/textCancel" />         
+        
+	    
+       </LinearLayout>
+      
+</LinearLayout>

@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:padding="@dimen/pad40"
+    android:background="@drawable/fondo"
+    >
+
+    <TextView
+        android:id="@+id/nombreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/textNombre"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tamaTexto" />
+    
+    <!-- texto editable -->
+    <EditText 
+        android:id="@+id/campoTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marg5"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tamaTexto"
+        android:layout_toRightOf="@+id/nombreTextView"
+        android:layout_alignBaseline="@+id/nombreTextView"
+        android:inputType="textPersonName"/>
+    
+    <TextView
+        android:id="@+id/nombreTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_alignParentLeft="true"                
+        android:layout_below="@+id/nombreTextView"
+        android:layout_marginTop="@dimen/pad10"
+        android:text="@string/textApellido"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tamaTexto" />
+    
+     <EditText 
+        android:id="@+id/campoTexto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marg5"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tamaTexto"        
+        android:layout_toRightOf="@+id/nombreTextView2"
+        android:layout_alignBaseline="@+id/nombreTextView2"
+        android:inputType="textPersonName"/>
+     
+      <TextView
+        android:id="@+id/nombreTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:layout_alignParentLeft="true" 
+        android:layout_marginTop="@dimen/pad10"
+        android:layout_below="@+id/nombreTextView2"     
+       android:text="@string/textEdad"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tamaTexto" />
+      
+       <EditText 
+        android:id="@+id/campoTexto3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marg5"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tamaTexto"        
+        android:layout_toRightOf="@+id/nombreTextView3"
+        android:layout_alignBaseline="@+id/nombreTextView3"
+        android:inputType="number"/>
+    
+    <Button android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/campoTexto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/pad160"
+        android:text="@string/intentBundle"
+        android:onClick="irActivityDialog"/>
+    
+    <Button android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marg5"
+        android:text="@string/intentImplicito"
+        android:onClick="irActivityList"/>
+    
+     <TextView
+        android:id="@+id/textPractica"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/textPractica"         
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tamaTexto10"
+        android:gravity="bottom"/>
+
+</RelativeLayout>

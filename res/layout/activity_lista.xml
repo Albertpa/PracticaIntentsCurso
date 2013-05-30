@@ -1,0 +1,33 @@
+	<RelativeLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"	  
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical"
+	    android:scrollbars="vertical"
+	    android:background="@android:color/black"
+	    tools:context=".ListaActivity"  >	
+	    
+	    
+	    <ListView 	        
+	        android:id="@+id/listViewBotones"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/list_dimen"       
+	        android:divider="@drawable/divider"
+	        android:listSelector="@android:color/darker_gray"
+	        
+	        />
+	      
+	   
+       <ImageView
+	        android:id="@+id/contenedorImagen"
+	        android:layout_width="@dimen/imagen_dimen"
+	        android:layout_height="@dimen/imagen_dimen"
+	        android:layout_marginTop="@dimen/marg20"
+	        android:adjustViewBounds="true"
+	        android:layout_below="@+id/listViewBotones"
+       		android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true" />
+	
+	</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imagen_dimen">400dp</dimen>
+    <dimen name="dimenBoton">80dp</dimen>
+    <dimen name="tamaTexto">15sp</dimen>
+    <dimen name="pad">5dp</dimen>
+    <dimen name="marg">10dp</dimen>
+    <dimen name="pad20">20dp</dimen>
+    <dimen name="marg20">20dp</dimen>
+    <dimen name="tamaTextoMedio">20sp</dimen>
+    <dimen name="pad10">10dp</dimen>
+    <dimen name="pad40">40dp</dimen>
+    <dimen name="marg5">5dp</dimen>
+    <dimen name="pad160">160dp</dimen>
+    <dimen name="tamaTexto10">10sp</dimen>
+    <dimen name="list_dimen">200dp</dimen>
+    
+</resources>

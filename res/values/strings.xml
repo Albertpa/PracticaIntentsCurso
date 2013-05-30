@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practica Intents Curso</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_lista">ListaActivity</string>
+    <string name="textOk">Ok</string>
+    <string name="textCancel">Cancel</string>
+    <string name="textNombre">Nombre:</string>
+    <string name="textApellido">Apellido:</string>
+    <string name="textEdad">Edad:</string>
+    <string name="NavegarWeb">Navegar por un sitio Web</string>
+    <string name="contactos">Contactos de mi agenda</string>
+    <string name="llamar">Iniciar una llamada telefónica</string>
+    <string name="mensaje">Iniciar un mensaje</string>
+    <string name="google">Realizar una busqueda en Google</string>
+    <string name="mail">Enviar por correo electrónico</string>
+    <string name="camara">Lanzar cámara de fotos</string>
+    <string name="galeria">Abrir galería de imágenes</string>
+    <string name="mapas">Ver ubicación en mapas</string>
+    <string name="textPractica">Practica desarrollada por Albert Pagès Raventós 28/01/2013\nE.U. en programación de aplicaciones Android e iOS UNED</string>
+    <string name="intentBundle">Intent con Bundle</string>
+    <string name="intentImplicito">Intents implicitos</string>
+    
+
+</resources>
